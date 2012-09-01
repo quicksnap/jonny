@@ -1,0 +1,18 @@
+
+.container {
+}
+
+.picture {
+}
+
+header {
+	height: 267px;
+	background: #000 url('header-bg.png') top center no-repeat;
+	margin-top: 28px;
+}
+
+.main-text p {
+	text-align: justify;
+	line-height: 2.1em;
+	font-size: 15px;
+}
