@@ -13,6 +13,7 @@ header {
 	background: #000 url('header-bg.png') top center no-repeat;
 	margin-top: -5px;
 	margin-bottom: 25px;
+	position: relative;
 }
 
 .main-text p {
@@ -40,4 +41,10 @@ header {
 }
 .top-text {
     margin-top: -3px;
+}
+
+#header .plug {
+    position: absolute;
+    bottom: -16px;
+    font-size: 0.64em;
 }
