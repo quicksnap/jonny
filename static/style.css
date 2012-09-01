@@ -1,4 +1,7 @@
-
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	background: whtie;
+}
 .container {
 }
 
@@ -8,11 +11,33 @@
 header {
 	height: 267px;
 	background: #000 url('header-bg.png') top center no-repeat;
-	margin-top: 28px;
+	margin-top: -5px;
+	margin-bottom: 25px;
 }
 
 .main-text p {
 	text-align: justify;
-	line-height: 2.1em;
-	font-size: 15px;
+	line-height: 1em;
+	font-size: 14px;
+	color: black;
+}
+
+.reference {
+	text-align: right !important;
+	font-size: 12px !important;
+}
+.main-text {
+    margin-bottom: 15px;
+}
+
+.top-text {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size:16px;
+}
+.top-text span.right {
+	float: right;
+}
+.top-text {
+    margin-top: -3px;
 }
